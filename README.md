@@ -1,6 +1,6 @@
 # RPAL Interpreter
 
-This repository contains an implementation of a RPAL Interpreter, which includes a lexical analyzer, parser, abstract syntax tree (AST) generation, conversion to Standardized Tree (ST), and a CSE machine. The RPAL language is defined by lexical rules and grammar detailed in `RPAL_Lex.pdf` and `RPAL_Grammar.pdf` respectively.
+This repository contains an implementation of a RPAL Interpreter, which includes a lexical analyzer, parser, abstract syntax tree (AST) generation, conversion to Standardized Tree (ST), and a CSE machine. It is defined by lexical rules and grammar detailed in `RPAL_Lex.pdf` and `RPAL_Grammar.pdf` under `docs` respectively.
 
 ## Usage
 
@@ -22,10 +22,10 @@ Replace `file_name` with the name of the file containing the RPAL program.
 The input RPAL program should adhere to the following format:
 
 ```
-`let Sum(A) = Psum (A,Order A ) 
+let Sum(A) = Psum (A,Order A ) 
 where rec Psum (T,N) = N eq 0 -> 0
  | Psum(T,N-1)+T N
-in Print ( Sum (1,2,3,4,5) )` 
+in Print ( Sum (1,2,3,4,5) ) 
 ```
 
 ## Output Format
@@ -33,7 +33,7 @@ in Print ( Sum (1,2,3,4,5) )`
 When the `-ast` switch is used, the output format should match the following:
 
 ```
-`let
+let
 .function_form
 ..<ID:Sum>
 ..<ID:A>
@@ -76,7 +76,7 @@ When the `-ast` switch is used, the output format should match the following:
 ....<INT:2>
 ....<INT:3>
 ....<INT:4>
-....<INT:5>` 
+....<INT:5>
 ```
 
 When the `-ast` switch is not used, the output format should display the result of the RPAL program execution:
