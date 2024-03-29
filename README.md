@@ -94,8 +94,8 @@ When the `-ast` switch is not used, the output format should display the result 
 
 ## Contributors
 
-Niruksha Sandeepa [@NirukshaSandeepa](https://www.github.com/NirukshaSandeepa)
-Lakshani Manamperi [@LRManamperi](https://www.github.com/LRManamperi)
+- Niruksha Sandeepa [@NirukshaSandeepa](https://www.github.com/NirukshaSandeepa)
+- Lakshani Manamperi [@LRManamperi](https://www.github.com/LRManamperi)
 
 ## License
 
