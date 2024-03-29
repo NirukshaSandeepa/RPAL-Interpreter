@@ -7,17 +7,17 @@ This repository contains an implementation of a RPAL Interpreter, which includes
 To use the compiler, follow these instructions based on your preferred programming language:
 
 ### C/C++
-
+```
 `$ ./myrpal file_name` 
-
+```
 ### Java
-
+```
 `$ java myrpal file_name` 
-
+```
 ### Python
-
+```
 `$ python myrpal.py file_name` 
-
+```
 Replace `file_name` with the name of the file containing the RPAL program.
 
 ### Required Switch
