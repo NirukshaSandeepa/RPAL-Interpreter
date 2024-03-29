@@ -4,20 +4,13 @@ This repository contains an implementation of a RPAL Interpreter, which includes
 
 ## Usage
 
-To use the compiler, follow these instructions based on your preferred programming language:
+The program can execute using the following
 
 ### C/C++
 ```
-`$ ./myrpal file_name` 
+$ ./myrpal file_name
 ```
-### Java
-```
-`$ java myrpal file_name` 
-```
-### Python
-```
-`$ python myrpal.py file_name` 
-```
+
 Replace `file_name` with the name of the file containing the RPAL program.
 
 ### Required Switch
