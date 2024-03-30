@@ -22,7 +22,7 @@ class tree {
         string getVal();							// Get value of node
         tree *createNode(string value, string typ); // Create node
         tree *createNode(tree *x);					// Create node
-        void print_tree(int no_of_dots);					// Print tree
+        void print_tree(int no_of_dots);			// Print tree
     };
     // Set type of node
     void tree::setType(string typ)
