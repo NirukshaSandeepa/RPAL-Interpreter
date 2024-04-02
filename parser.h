@@ -13,9 +13,9 @@
 
 using namespace std;
 
-stack<tree *> st; // Stack for syntax tree
+stack<tree *> st; // stack for syntax tree
 
-// Array of operators
+// Array of binary operators
 char operators[] = {'+', '-', '*', '<', '>', '&', '.', '@', '/', ':', '=', '~', '|', '$', '!', '#', '%',
                     '^', '_', '[', ']', '{', '}', '"', '`', '?'};
 
