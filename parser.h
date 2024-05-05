@@ -371,8 +371,6 @@ public:
             if (astFlag == 2)
                 t->print_tree(0);
 
-            if (astFlag == 0)
-            {
             // Create
             tree *controlStructureArray[200][200];
             createControlStructures(t, controlStructureArray);
@@ -392,9 +390,9 @@ public:
                         temp.push_back(controlStructureArray[i][j]);
                 }
                 setOfControlStruct.push_back(temp);
-            }           
-            cse_machine(setOfControlStruct);
             }
+
+            cse_machine(setOfControlStruct);
         }
     }
 
