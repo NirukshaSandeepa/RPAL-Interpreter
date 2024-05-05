@@ -19,15 +19,15 @@ The following sequence of commands can be used in the root of the project direct
 to compile the program and execute rpal programs:
 ```
 > make
-> ./rpal20 file_name
+> ./myrpal file_name
 ```
 To generate the Abstract Syntax Tree:
 ```
-> ./rpal20 -ast file_name
+> ./myrpal -ast file_name
 ```
 To generate the Standardized Tree:
 ```
-> ./rpal20 -st file_name
+> ./myrpal -st file_name
 ```
 
 ### Required Switch
