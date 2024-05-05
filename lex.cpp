@@ -62,9 +62,10 @@ std::vector<std::pair<std::string, std::string>> analyze(std::string input_strin
 
 int main() {
     std::string input_string = R"(
-x := 'Hello, World!\n';
-y := 'RPAL';
-print(x + y);
+let Sum(A) = Psum (A,Order A )
+where rec Psum (T,N) = N eq 0 -> 0
+ | Psum(T,N-1)+T N
+in Print ( Sum (1,2,3,4,5) )
 )";
 
     std::vector<std::pair<std::string, std::string>> tokens = analyze(input_string);
