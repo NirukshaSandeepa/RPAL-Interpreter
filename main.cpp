@@ -46,7 +46,7 @@ int main(int argc, const char **argv)
         rpal_parser.parse();
     }
     else
-        cout << " Error : Incorrect no. of inputs " << endl;
+        cout << " Error : Incorrect no. of inputs " << endl; // Error message if no file name is provided
 
     return 0;
 }
