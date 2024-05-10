@@ -1,4 +1,4 @@
 all:
-	g++ main.cpp -o rpal20
+	g++ main.cpp -o myrpal
 cl:
-	rm -f *.o rpal20
+	rm -f *.o myrpal
