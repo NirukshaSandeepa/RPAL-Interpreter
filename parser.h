@@ -380,7 +380,7 @@ public:
             while (controlStructureArray[size][0] != NULL)
                 size++;
 
-            vector<vector<tree *> > setOfControlStruct;
+            vector<vector<tree *> > setOfControlStruct; // Vector of control structures
             for (int i = 0; i < size; i++)
             {
                 vector<tree *> temp;
